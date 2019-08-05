@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(151, 138, 236);
+}
+
+form {
+	background: white;
+	width: 45%;
+	height: 45%;
+	border-radius: 5px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+h1 {
+	color: rgb(65, 63, 63);
+}
+input {
+	padding: 10px 20px;
+	border: 3px solid whitesmoke;
+	border-radius: 5px;
+	color: grey;
+}
+button {
+	cursor: pointer;
+}
+.btn {
+	padding: 10px 30px;
+	font-size: 16px;
+	background-color: rgb(151, 138, 236);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: 400;
+}
+/* signup form css */
+.signup-wrapper {
+	background: rgb(151, 138, 236);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.signup-wrapper form {
+	background: white;
+	width: 45%;
+	height: 50%;
+	border-radius: 5px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.btn a {
+	text-decoration: none;
+	color: white;
+}
+.login-wrapper {
+	height: 100vh;
+}
