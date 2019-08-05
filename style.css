@@ -43,6 +43,9 @@ button {
 	color: white;
 	font-weight: 400;
 }
+#warning {
+	display: none;
+}
 /* signup form css */
 .signup-wrapper {
 	background: rgb(151, 138, 236);
@@ -67,4 +70,16 @@ button {
 }
 .login-wrapper {
 	height: 100vh;
+}
+/* mobile */
+@media only screen and (max-width: 430px) {
+	form {
+		width: 80%;
+	}
+	h1 {
+		font-size: 25px;
+	}
+	.signup-wrapper form {
+		width: 80%;
+	}
 }
